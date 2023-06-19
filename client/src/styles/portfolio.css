@@ -24,6 +24,7 @@
 .portfolio__item p{
     font-size: 0.9rem;
     color: var(--color-light);
+    margin-bottom: 0.7rem;
 }
 
 

@@ -30,20 +30,26 @@ header{
 
 .header__social{
     display: flex;
+    font-size: 1.5rem;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
     position: absolute;
-    left: 30px;
+    left: 100px;
     bottom: 3rem;
 }
+.header__social a:hover{
+    font-size: 1.75rem;
+    background: var(--color-bg);
+    color: white;
+}
 
-.header__social::after{
+/* .header__social::after{
     content: "";
     width: 1px;
     height: 2rem;
     background: var(--color-primary);
-}
+} */
 
 .me{
     background: linear-gradient(var(--color-primary),transparent) ;
@@ -63,12 +69,18 @@ header{
     bottom: 5rem;
     transform: rotate(90deg);
     font-weight: 300;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
+}
+.scroll_down:hover{
+    color: white;
 }
 
 @media screen and (max-width: 1024px){
-    header{
-        height: 68vh;
+    .header__social{
+        bottom: 5rem;
+    }
+    .scroll_down{
+        bottom: 10rem;
     }
   }
   @media screen and (max-width: 600px){
