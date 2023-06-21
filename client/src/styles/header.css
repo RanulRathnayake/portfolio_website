@@ -84,6 +84,9 @@ header{
     }
   }
   @media screen and (max-width: 600px){
+    .me{
+        left: 1.5rem;
+    }
     header{
         height: 100vh;
     }
