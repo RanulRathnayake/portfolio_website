@@ -36,7 +36,7 @@ user login/logout, follow other users and like and comment to posts.React, NodeJ
           </div>
           <h3>Automated Pill Dispenser</h3>
           <p>That dispenser can provide the relevant oils, medicine pills, and liquids that are mixed with different medicine powders to the patients. We designed this for 1st year hardware group project in my university</p>
-          <a href="https://github.com/" className="btn" target='_blanck'>View Project</a>
+          <a href="https://github.com/RanulRathnayake/Hardware_project" className="btn" target='_blanck'>View Project</a>
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
